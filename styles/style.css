@@ -413,6 +413,71 @@ li{
         margin-top: 150px;
     }
 
+    .design{
+
+        color: rgb(230, 83, 60);
+        font-size: 4.5rem;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+    .design-p{
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 0.8rem;
+        font-weight: 400;
+
+    }
+    .get-title{
+        color: rgb(255, 255, 255);
+
+            font-size: 2rem;
+            font-weight: 700;
+
+    }
+
+    .get-des{
+        color: rgba(255, 255, 255, 0.5);
+
+        font-size: 1.5rem;
+        font-weight: 400;
+
+
+    }
+
+    .foot{
+        margin-top: 180px;
+        background: rgba(255, 255, 255, 0.1);
+        max-width:100%;
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        border-radius: 20px;
+        padding:30px;
+        
+    }
+
+    .flex{
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 150px;
+        
+    }
+
+    .copyright{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: 36px;
+
+    }
+
+    
+
     
 
  
@@ -465,14 +530,19 @@ li{
     width: 100%;
    }
 
-   .over{
+   .over,.flex{
 
     grid-template-columns: repeat(1,1fr);
     gap: 20px;
+    text-align: center;
 
     .description{
         margin: 0 auto;
     }
+
+    
+
+    
    
 }
 
