@@ -7,6 +7,8 @@
 
 }
 
+
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -23,6 +25,10 @@
 .item{
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+     border: 2px solid rgba(255, 255, 255, 0.1);
+     border-radius: 39px;
+
 }
 
 a{
@@ -487,6 +493,7 @@ li{
 
 
 @media screen and (max-width:576px) {
+
 
    a,.home{
     visibility: hidden;
