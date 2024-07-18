@@ -363,6 +363,56 @@ li{
 
     }
 
+    .overlap{
+         max-width: 1060px;
+         margin: 0 auto;
+         border-radius: 18px;
+         background: rgba(255, 255, 255, 0.1);
+         margin-top: 58px;
+    }
+
+    .over{
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px 10px 20px 20px;
+    }
+
+    .trainer-size{
+
+        width: 326.67px;
+        height: 272px;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .h3{
+
+        color: white;
+        font-size: 1.2rem;
+
+    }
+
+    .p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.8rem;
+        margin-top: -10px;
+    }
+
+    .description{
+        position: relative;
+    }
+
+    .contain{
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 20px;
+    }
+
+    .margin{
+        margin-top: 150px;
+    }
+
     
 
  
@@ -414,6 +464,18 @@ li{
    input, select{
     width: 100%;
    }
+
+   .over{
+
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+
+    .description{
+        margin: 0 auto;
+    }
+   
+}
+
 
 
  
