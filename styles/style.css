@@ -25,10 +25,6 @@
 .item{
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-     border: 2px solid rgba(255, 255, 255, 0.1);
-     border-radius: 39px;
-
 }
 
 a{
@@ -546,6 +542,8 @@ li{
     .description{
         margin: 0 auto;
     }
+
+    
 
     
 
