@@ -230,6 +230,139 @@ li{
 
     }
 
+    .layer{
+
+        max-width: 1200px;
+        margin: 0 auto;
+        background: rgb(34, 34, 34);
+        border-radius: 18px;
+        margin-top: 100px;
+
+
+    }
+   
+
+    .fixed{
+       
+
+        display: flex;
+
+
+    }
+
+    .det-t{
+
+          color: rgb(255, 255, 255);
+
+            font-size: 3rem;
+            font-weight: 900;
+
+
+    }
+
+    .btn-mar{
+
+        margin-top: 34px;
+    }
+
+    .run{
+        width: 366px;
+        height: 312px;
+        border-radius:40px;
+        padding: 30px 32px 29px;
+    }
+
+
+
+    .challenges {
+        background-color: #2a2a2a;
+        color: #ffffff;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        max-width: 1440px;
+       /* height: 487px; */
+        margin-top: 188px;
+        border-radius: 10px;
+    }
+    .container3 {
+
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        width: 80%;
+        max-width: 1200px;
+    }
+    .container > div {
+        background-color: #1f1f1f;
+        padding: 20px;
+        border-radius: 10px;
+        width: 45%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #555555;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #444444;
+    }
+    td {
+        background-color: #333333;
+    }
+    h2 {
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input, select, button {
+        background-color: #333333;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: #ffffff;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    button {
+        background-color: #ff6347;
+        cursor: pointer;
+        width: 224px;
+        height: 54px;
+        margin-top: 20px;
+    }
+    button:hover {
+        background-color: #ff4500;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .calculator{
+        max-width:671px;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+
+    .bmi-t{
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 900;
+
+    }
+
     
 
  
@@ -260,7 +393,33 @@ li{
 
     grid-template-columns: repeat(1,1fr);
    }
+   .fixed{
 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .container3{
+
+    grid-template-columns: repeat(1,1fr);
+
+   }
+
+   table{
+    width: 100%;
+   }
+
+   input, select{
+    width: 100%;
+   }
+
+
+ 
+   
+
+  
   
    
     
